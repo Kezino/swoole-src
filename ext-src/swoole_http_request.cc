@@ -222,7 +222,7 @@ const zend_function_entry swoole_http_request_methods[] =
     PHP_ME(swoole_http_request, parse,                      arginfo_class_Swoole_Http_Request_parse,       ZEND_ACC_PUBLIC)
     PHP_ME(swoole_http_request, isCompleted,                arginfo_class_Swoole_Http_Request_isCompleted, ZEND_ACC_PUBLIC)
     PHP_ME(swoole_http_request, getMethod,                  arginfo_class_Swoole_Http_Request_getMethod,   ZEND_ACC_PUBLIC)
-    PHP_ME(swoole_http_request, getBodyStream,              arginfo_class_Swoole_Http_Request_getBodyStream, ZEND_ACC_PUBLIC)
+    PHP_ME(swoole_http_request, getBodyStream,           arginfo_class_Swoole_Http_Request_getBodyStream,  ZEND_ACC_PUBLIC)
     PHP_FE_END
 };
 // clang-format on
